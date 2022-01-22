@@ -1,0 +1,104 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10267374700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Realizar uma pesquisa",
+        "description": "",
+        "id": "pesquisar;realizar-uma-pesquisa",
+        "after": [
+          {
+            "result": {
+              "duration": 5153919300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2884115400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "que eu acesse a pagina \"http://google.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://google.com/\"",
+                  "offset": 23
+                }
+              ],
+              "location": "PesquisaSteps.que_eu_acesse_a_pagina(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6540097900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "realizar uma consulta por \"Minecraft\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Minecraft\"",
+                  "offset": 26
+                }
+              ],
+              "location": "PesquisaSteps.realizar_uma_consulta_por(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 697863700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "visualizar 3 pesquisas relacionadas ao assunto",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 11
+                }
+              ],
+              "location": "PesquisaSteps.visualizar_pesquisas_relacionadas_ao_assunto(Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Pesquisar",
+    "description": "",
+    "id": "pesquisar",
+    "keyword": "Feature",
+    "uri": "Features/Login.feature",
+    "tags": []
+  }
+]

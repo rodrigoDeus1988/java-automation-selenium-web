@@ -1,0 +1,11 @@
+core\browsers\EdgeBrowser.class
+steps\PesquisaSteps.class
+core\browsers\ChromeBrowser.class
+core\browsers\InternetExplorerBrowser.class
+core\browsers\IBrowser.class
+pages\PesquisaPage.class
+testRunners\RunnerTest.class
+core\DriverFactory.class
+core\DriverManager.class
+hooks\Hooks.class
+core\browsers\FirefoxBrowser.class
